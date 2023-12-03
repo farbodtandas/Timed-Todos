@@ -1,0 +1,39 @@
+body {
+  background-color: #b8c8df;
+}
+
+.headText {
+  color: rgb(255, 255, 255);
+}
+
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.todo {
+  border-radius: 10px;
+  background-color: rgba(221, 221, 221, 0.747);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 1rem 1rem;
+  box-shadow: 0 1px 1px #aeaeae;
+  padding: 1rem 0.5rem;
+}
+
+.todo button {
+  border-radius: 15px;
+  background: rgba(204, 37, 37, 0.774);
+  color: #fff;
+  border: none;
+  margin-left: 5px;
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+span {
+  margin-left: 1rem;
+}
